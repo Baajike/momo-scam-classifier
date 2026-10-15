@@ -1,0 +1,21 @@
+# Real messages never go on GitHub (privacy)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Results from the made-up practice data are not real results
+results/practice_run/
+
+# Trained models are rebuilt from code, no need to store them
+models/*
+!models/.gitkeep
+
+# Python clutter
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
